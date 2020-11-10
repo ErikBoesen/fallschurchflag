@@ -1,0 +1,25 @@
+title: A Flag for Falls Church
+email: me@erikboesen.com
+description: Falls Church City deserves a symbol to rally around as we reckon with our past and race toward the future.
+baseurl: "" # Don't change this, this refers to the site's relative path, like /blog.
+url: "http://fallschurchflag.org"
+twitter_username: Robotics1418
+
+# Build settings
+sass:
+    style: compressed
+exclude:
+    - README.md
+    - LICENSE.md
+    - CNAME
+    - Gemfile
+    - Gemfile.lock
+    - package.json
+    - vendor
+    - vendor/cache
+    - ruby
+    - .bundle
+include:
+    - _pages
+plugins:
+    - octopress-autoprefixer
