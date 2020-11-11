@@ -10,9 +10,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
         <meta name="description" content="{{ site.description }}">
-        <meta name="author" content="Erik Boesen">
         <meta name="twitter:card" content="summary_large_image">
-        <meta property="og:title" content="A Flag for Falls Church">
+        <meta property="og:title" content="{{ site.title }}">
         <meta property="og:description" content="{{ site.description }}">
         <meta property="og:image" content="{{ site.url }}/images/flag.jpg">
         <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -22,6 +21,9 @@
         <header>
             <h2>A Flag for Falls Church</h2>
         </header>
-        {{ content }}
+        <main>
+            {{ content }}
+        </main>
+        <footer>
     </body>
 </html>
